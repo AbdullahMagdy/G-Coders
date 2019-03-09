@@ -1,0 +1,190 @@
+/*
+
+theme name :
+theme coder: 
+colors ==> f(#08526d) S(#ec1c23)
+*/
+
+
+
+/* strat upper-bar */
+
+*
+{
+    
+    box-sizing: border-box
+}
+
+.upper-bar
+{
+    background-color: #08526d;
+    padding: 10px;
+    color: aliceblue
+}
+
+.col1 
+{
+    float: left ;
+   
+    padding-top: 3px;
+    
+}
+
+.col1 .fa-mobile
+{
+    background-color: black;
+    color: aliceblue
+}
+
+.col2
+{
+    
+     float: right;
+     
+    
+    
+}
+
+/* end upper-bar */
+
+
+/* start nav bar and title */
+
+
+
+.navbar-brand .sp1
+{
+    font-weight: bold;
+    color: #08526d;
+    font-size: 35px
+}
+
+.navbar-brand .sp2
+{
+    font-weight: 200;
+    color: #ec1c23;
+      font-size: 30px
+    
+}
+
+.navbar-nav .nav-item 
+{
+    margin-left: 50px
+}
+
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link ,
+.navbar-light .navbar-nav .nav-link
+{
+    color: #08526d
+}
+.navbar-light .navbar-nav .aboutlinkme
+
+{
+    
+     color:#ec1c23
+}
+
+/* end nav bar and title */
+
+/* start carousel */
+
+
+.slider 
+{
+    background-color: #EEE;
+   
+}
+
+.slider .carousel-item
+{
+    background-size: cover
+}
+
+.slider .c1
+{
+    background-image: url(../img/img1.jpg);
+    
+}
+
+.slider .c2
+{
+    background-image: url(../img/img2.jpg);
+    
+}
+
+.slider .c3
+{
+    background-image: url(../img/img3.jpg);
+    
+}
+.carousel-inner .opacity 
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    background: rgba(0,0,0,.6);
+    z-index: 2;
+}
+
+.carousel-inner
+{
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-inner h1
+{
+    position: absolute;
+    line-height: 2;
+    z-index: 3;
+    color: azure;
+    
+}
+
+.carousel-inner h1 span
+{
+   background-color: #ec1c23
+    
+}
+/* end carousel */
+
+/* start featurs */
+
+.featurs
+{
+    padding: 50px 0 ;
+    
+}
+
+.featurs p
+{
+    font-size: 12px;
+    
+}
+
+.featurs h4
+{
+    color:#08526d; 
+}
+
+.featurs .fa-3x
+
+{
+    width: 70px;
+    height: 70px;
+    background-color: #ec1c23;
+    line-height: 70px;
+    color: aliceblue
+    
+}
+
+
+
+/* end featurs */
+
